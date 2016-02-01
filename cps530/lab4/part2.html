@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Part 2</title>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+        <p>Fill in some information!</p>
+
+        <form class="info_form" action="http://www2.scs.ryerson.ca/~c54wang/cgi-bin/lab4p2.pl" method="post">
+          <input required type="text" name="name" placeholder="Name" class="form-control">
+          <input required type="text" name="lastname" placeholder="Last Name" class="form-control">
+          <input required type="text" name="email" placeholder="Email" class="form-control">
+          <select required class="form-control" name="birthyear">
+              <option value="" disabled selected>Birth Year</option>
+              <script>
+                for (var i = 2000; i >= 1900; i--)
+                  document.write('<option value="' + i + '">' + i + '</option>')
+              </script>
+            </select>
+            <input type="submit" name="submit" class="btn btn-primary">
+  </body>
+</html>

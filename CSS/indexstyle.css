@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Ovo|Muli);
+
+body{
+  font-size: 12px;
+  font-family:  "Muli", arial;
+  color: rgb(235, 222, 185);
+  background-color: #4f425b;
+  padding-top: 60px;
+  padding-left: 30px;
+    padding-right: 30px;
+  line-height: 170%;
+  position: absolute;
+  overflow-y: : scroll;
+  height: 500px;
+  text-align: center;
+
+}
+h1,h2,h3,h4,h5{
+  font-family:  "Ovo", arial;
+  text-align: center;
+  color: rgb(235, 222, 185);
+  letter-spacing: 1px;
+}
+
+li{
+  font-family: "Muli", arial;
+  font-size: 15px;
+}
+nav.navbar-default{
+  background-color: #392f41;
+  border: none;
+  height: 10px;
+  font-family: "Muli", arial;
+  font-size: 20px;
+}
+
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+.navbar.center .navbar-inner .nav {
+  float: none;
+  display:inline-block;
+  vertical-align: top;
+}
+
+
+
+hr{
+  border: .5px solid rgba(255, 255, 255, 0.08);
+}
+
+a{
+  padding: 30px;
+  position: center;
+}
+
+a {
+  color: rgb(235, 222, 185);
+}
+
+/* visited link */
+
+a:visited {
+  color: rgb(235, 222, 185);
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: rgb(235, 222, 185);
+}
+
+select{
+  padding-left: 50%;
+  padding-right: 50%;
+}

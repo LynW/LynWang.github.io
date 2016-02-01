@@ -1,0 +1,62 @@
+body {
+    background-color: #000000;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.snum {
+  color: grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    text-shadow:5px 5px 5px #999999;
+}
+
+summary, figcaption{
+  font-size: 10px;
+  color: grey;
+}
+
+p, ul{
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+  border-radius: 20px;
+}
+
+
+a:link {
+  color: #9700C6
+}
+a:visited {
+  color: #C400B4
+}
+a:hover {
+  color: #FFFFFF
+}
+a:active {
+  color: #0000FF
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+table, td, th, tr {
+    border: 1px solid grey;
+    color: pink;
+}
+
+tr {
+  background-color: rgba(153, 153, 153, 0.5);
+}
+

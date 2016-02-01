@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Cabin|Spinnaker);
+
+body{
+  font-size: 12px;
+  font-family:  "Montserrat", arial;
+  color: black;
+  background-color: #42B4B5;
+  padding-top: 100px;
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+
+nav.navbar-default{
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+
+}
+
+nav.navbar-text {
+  color: #777;
+  font-size: 18px;
+  text-align: center;
+}
+
+a{
+  padding: 50px;
+}
+
+a:link {
+    color: #20626F;
+}
+
+/* visited link */
+a:visited {
+    color: #20626F;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2E8A9D;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #20626F;
+}
+
+iframe{
+  overflow: scroll;
+  height: 85%;
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  top: 25px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carolyn Wang</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/indexstyle.css" media="screen" title="CSS" charset="utf-8">
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <nav class="navbar-text" opacity="1">
+        <a href="http://www.scs.ryerson.ca/~c54wang/">Home</a>
+        <a href="#">CPS530</a>
+        &emsp;&emsp;Carolyn Wang 500 530 404
+
+      </nav>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="transbox">
+    <select class="report" name="select-report" onchange="document.getElementById('viewer').src = this.options[this.selectedIndex].getAttribute('data-src');">
+      <option value="Main" data-src="#">Main</option>
+      <option value="Lab 1" data-src="http://www.scs.ryerson.ca/~c54wang/cps530labs/lab1">Lab 1</option>
+      <option value="Lab 2" data-src="http://www.scs.ryerson.ca/~c54wang/cps530labs/lab2">Lab 2</option>
+      <option value="Lab 3" data-src="http://www.scs.ryerson.ca/~c54wang/cps530labs/lab3">Lab 3</option>
+      <option value="Lab 4" data-src="http://www.scs.ryerson.ca/~c54wang/cps530labs/lab4">Lab 4</option>
+      <option value="Lab 5" data-src="http://www.scs.ryerson.ca/~c54wang/cps530labs/lab5">Lab 5</option>
+      <option value="Lab 6" data-src="http://www.scs.ryerson.ca/~c54wang/cps530labs/lab6">Lab 6</option>
+    </select>
+    <br>
+    <iframe src="http://www.scs.ryerson.ca/~c54wang/cps530labs/frameindex.html" width="500" height="500" style=" width:90%;" frameBorder="0" id="viewer">Your browser does not support iFrames!</iframe>
+
+  </p></div></div>
+</body>
+</html>
